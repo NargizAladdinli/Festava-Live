@@ -1,0 +1,121 @@
+#blur{
+    @include Ground($ground_color:$brown_clor,$ground_repeat:no-repeat,$ground_size:cover);
+    @include Img($wid:$wid_100,$heit:624px);
+    @include Flex($a_items:center);
+    .txt{
+        font-family: 'Outfit', sans-serif;
+        h2{ 
+            @include Text($f_size:$h2_size,$colors:$w_color,$f_weight:$weight_700);
+            margin-bottom: 1.5rem; 
+        }
+        p{
+            @include Text($colors:$w_color,$f_size:$p_size,$f_weight:$weight_300);
+            margin-bottom: 1rem;
+        }
+        h6{
+            @include Text($colors:$w_color,$f_size:$h6_size,$f_weight:$weight_700);
+            margin-top: 1.5rem;
+        }
+    }
+    .img{
+        @include Img($pos:relative,$flow:hidden);
+        img{
+            border-radius: $radius_img;
+            @include Img($wid:$wid_100,$heit:424px,$o_fit:cover,$o_pos:center);
+        }
+        .info{
+            @include Ground($drop:blur(5px) saturate(180%),$ground_color:$ground_white);
+            @include Text($border:1px solid rgba(209, 213, 219, 0.3),$radius:$radius_img);
+            @include Img($wid:596px,$heit:145px,$pos:absolute,$botom:30px,$left:25px);
+            padding: 30px;
+            .icon{
+                @include Flex($gap:20px,$a_items:center);
+                i{
+                    @include Img($wid:70px,$heit:70px);
+                    @include Text($ground:$y_color,$radius:$radius_100,$f_size:32px);
+                    @include Flex($j_content:center,$a_items:center);
+                    
+                }
+                .txt{
+                    h3{ @include Text($f_size:32px,$f_weight:$weight_700,$colors:$dark_color); }
+                    p{ @include Text($colors:$gray_color,$f_size:$p_size,$f_weight:$weight_300); }
+                }
+            }
+        }
+    }
+}
+#artist{
+    padding: 100px 0px;
+    .txt{
+        padding: 30px 0px;
+        text-align: center;
+        h2{ @include Text($f_size:$h2_size,$f_weight:$weight_700,$colors:$dark_color); }
+    }
+    .img1{
+        @include Img($wid:100%,$pos:relative,$flow:hidden);
+        img{ 
+            @include Img($wid:526px,$heit:791px,$o_fit:cover,$o_pos:center);
+            border-radius: $radius_img;
+        }
+        .all{
+            @include Img($wid:486px,$heit:259px,$pos:absolute,$botom:0,$left:0,$right:0);
+            @include Ground($ground_color:$ground_yellow,$drop:blur(5px) saturate(180%));
+            border-radius: $radius_img;
+            margin: 20px;
+            padding: 35px;
+            transition: all 0.5s ease;
+             transform: translateY(150%);
+             p{
+                @include Text($colors:#717275,$f_size:$p_size,$f_weight:$weight_300);
+                strong{
+                    display: inline-block;
+                    min-width: 180px;
+                    margin-right: 20px;
+                    @include Text($colors:$w_color,$f_weight:$weight_700);
+                 }
+                 a{
+                    text-decoration: none;
+                    color: #EE5007;
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        color: $w_color;
+                    }
+                 }
+             }
+            }
+            &:hover{ .all{ transform: translateY(0); } }
+    }
+    .img2{
+        padding: 15px 0px;
+        @include Img($wid:100%,$pos:relative,$flow:hidden);
+        img{ 
+            @include Img($wid:526px,$heit:350px,$o_fit:cover,$o_pos:center);
+            border-radius: $radius_img;
+        }
+        .all{
+            @include Img($wid:486px,$heit:259px,$pos:absolute,$botom:0,$left:0,$right:0);
+            @include Ground($ground_color:$ground_yellow,$drop:blur(5px) saturate(180%));
+            border-radius: $radius_img;
+            margin: 20px;
+            padding: 35px;
+            transition: all 0.5s ease;
+             transform: translateY(150%);
+             p{
+                @include Text($colors:#717275,$f_size:$p_size,$f_weight:$weight_300);
+                strong{
+                    display: inline-block;
+                    min-width: 180px;
+                    margin-right: 20px;
+                    @include Text($colors:$w_color,$f_weight:$weight_700);
+                 }
+                 a{
+                    text-decoration: none;
+                    color: #EE5007;
+                    transition: .3s ease-in-out;
+                    &:hover{ color: $w_color; }
+                 }
+             }
+            }
+            &:hover{ .all{ transform: translateY(0); } }
+    }
+}

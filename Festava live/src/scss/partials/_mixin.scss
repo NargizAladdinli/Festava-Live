@@ -1,0 +1,32 @@
+@mixin Ground($ground_color:null,$ground_repeat:null,$ground_size:null,$drop:null){
+    background-color: $ground_color;
+    background-repeat: $ground_repeat;
+    background-size: $ground_size;
+    backdrop-filter: $drop;
+}
+@mixin Img($wid:null,$heit:null,$o_fit:null,$o_pos:null,$pos:null,$top:null,$left:null,$right:null,$botom:null,$flow:null){
+    width: $wid;
+    height: $heit;
+    object-fit: $o_fit;
+    object-position: $o_pos;
+    position: $pos;
+    top:$top;
+    left: $left;
+    right: $right;
+    bottom: $botom;
+    overflow: $flow;
+}
+@mixin Text($f_size:null,$colors:null,$f_weight:null,$ground:null,$radius:null,$border:null){
+    font-size: $f_size;
+    color: $colors;
+    font-weight: $f_weight;
+    background: $ground;
+    border-radius: $radius;
+    border: $border;
+}
+@mixin Flex($a_items:null,$gap:null,$j_content:null){
+    display: flex;
+    align-items: $a_items;
+    gap: $gap;
+    justify-content: $j_content;
+}
