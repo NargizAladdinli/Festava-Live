@@ -1,0 +1,127 @@
+h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 70px;
+    
+}
+
+#forum{
+    .contact{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .form{
+        button{
+            color: gold;
+            background-color: #f5f5f5;
+            border: none;
+            font-size: 30px;
+            border-radius: 50px;
+            height: 60px;
+            width: 200px;
+            cursor: pointer;
+}
+        }
+        .map{
+            button{
+            color: gray;
+            border: none;
+            font-size: 30px;
+            border-radius: 50px;
+            height: 60px;
+            width: 200px;
+            cursor: pointer;
+            background-color: white;
+            &:hover{
+                color: gold;
+                background-color: #f5f5f5;
+            }
+               
+            
+            }
+        }
+    }
+    main{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .reqister{
+            margin: 50px 0px; 
+          .reqister-form{
+            border-radius: 5px;
+            background-color: white;
+             width: 700px;
+             height: 400px;
+             -webkit-box-shadow: 0px -1px 50px 0px rgba(34, 60, 80, 0.2);
+             -moz-box-shadow: 0px -1px 50px 0px rgba(34, 60, 80, 0.2);
+              box-shadow: 0px -1px 50px 0px rgba(34, 60, 80, 0.2);
+            .form-title{
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                line-height: 70px;
+                .form-titles{
+                    input{
+                    height: 40px;
+                    width: 300px;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    padding: 5px;
+                    }
+                }
+                .form-titlestwo{
+                    input{
+                    height: 40px;
+                    width: 300px;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    padding: 5px;
+                    }
+                }
+            }
+            .company{
+                text-align: center;
+                line-height: 70px;
+                input{
+                    height: 40px;
+                    width: 630px;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+            }
+            .message{
+                text-align: center;
+                
+                input{
+                    height: 100px;
+                    width: 630px;
+                    padding: 5px;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                }
+            }
+            .send{
+                margin: 30px 0px;
+                button{
+                    background-color: #FF8B13;
+                    color: white;
+                    border: 1px solid #FF8B13;
+                    border-radius: 50px;
+                    width: 230px;
+                    height: 50px;
+                    cursor: pointer;
+                    font-size: 20px;
+                    &:hover{
+                        background-color: #EB455F;
+                        border: 1px solid #EB455F;
+                    }
+                }
+            }
+          }  
+        }
+    }

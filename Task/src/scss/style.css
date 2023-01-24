@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Courgette&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@800&family=Poppins:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  line-height: 70px;
+}
+
+#forum .contact {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#forum .form button {
+  color: gold;
+  background-color: #f5f5f5;
+  border: none;
+  font-size: 30px;
+  border-radius: 50px;
+  height: 60px;
+  width: 200px;
+  cursor: pointer;
+}
+#forum .map button {
+  color: gray;
+  border: none;
+  font-size: 30px;
+  border-radius: 50px;
+  height: 60px;
+  width: 200px;
+  cursor: pointer;
+  background-color: white;
+}
+#forum .map button:hover {
+  color: gold;
+  background-color: #f5f5f5;
+}
+
+main {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+main .reqister {
+  margin: 50px 0px;
+}
+main .reqister .reqister-form {
+  border-radius: 5px;
+  background-color: white;
+  width: 700px;
+  height: 400px;
+  box-shadow: 0px -1px 50px 0px rgba(34, 60, 80, 0.2);
+}
+main .reqister .reqister-form .form-title {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  line-height: 70px;
+}
+main .reqister .reqister-form .form-title .form-titles input {
+  height: 40px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+main .reqister .reqister-form .form-title .form-titlestwo input {
+  height: 40px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+main .reqister .reqister-form .company {
+  text-align: center;
+  line-height: 70px;
+}
+main .reqister .reqister-form .company input {
+  height: 40px;
+  width: 630px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+main .reqister .reqister-form .message {
+  text-align: center;
+}
+main .reqister .reqister-form .message input {
+  height: 100px;
+  width: 630px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+main .reqister .reqister-form .send {
+  margin: 30px 0px;
+}
+main .reqister .reqister-form .send button {
+  background-color: #FF8B13;
+  color: white;
+  border: 1px solid #FF8B13;
+  border-radius: 50px;
+  width: 230px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+main .reqister .reqister-form .send button:hover {
+  background-color: #EB455F;
+  border: 1px solid #EB455F;
+}/*# sourceMappingURL=style.css.map */
