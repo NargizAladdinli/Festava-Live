@@ -3,7 +3,7 @@ h1{
     font-weight: 800;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
-    line-height: 70px;
+    margin: 40px 0px;
     
 }
 
@@ -12,13 +12,15 @@ h1{
         display: flex;
         justify-content: center;
         gap: 30px;
+        
     }
     .form{
         button{
+            margin: 30px 0px; 
             color: gold;
             background-color: #f5f5f5;
             border: none;
-            font-size: 30px;
+            font-size: 20px;
             border-radius: 50px;
             height: 60px;
             width: 200px;
@@ -27,9 +29,10 @@ h1{
         }
         .map{
             button{
+                margin: 30px 0px;
             color: gray;
             border: none;
-            font-size: 30px;
+            font-size: 20px;
             border-radius: 50px;
             height: 60px;
             width: 200px;
@@ -49,10 +52,10 @@ h1{
         text-align: center;
         justify-content: center;
         align-items: center;
+        margin: 40px 0px;
         .reqister{
-            margin: 50px 0px; 
           .reqister-form{
-            border-radius: 5px;
+            border-radius: 20px;
             background-color: white;
              width: 700px;
              height: 400px;
@@ -63,44 +66,46 @@ h1{
                 display: flex;
                 justify-content: center;
                 gap: 30px;
-                line-height: 70px;
                 .form-titles{
+                    margin: 30px 0px;
                     input{
                     height: 40px;
                     width: 300px;
                     border: 1px solid gray;
                     border-radius: 5px;
-                    padding: 5px;
+                    padding: 10px;
                     }
                 }
                 .form-titlestwo{
+                    margin: 30px 0px;
                     input{
                     height: 40px;
                     width: 300px;
                     border: 1px solid gray;
                     border-radius: 5px;
-                    padding: 5px;
+                    padding: 10px;
                     }
                 }
             }
             .company{
                 text-align: center;
-                line-height: 70px;
+                margin: 10px 0px;
                 input{
                     height: 40px;
                     width: 630px;
                     border: 1px solid gray;
                     border-radius: 5px;
-                    padding: 5px;
+                    padding: 10px;
                 }
             }
             .message{
                 text-align: center;
+                margin: 30px 0px;
                 
                 input{
                     height: 100px;
                     width: 630px;
-                    padding: 5px;
+                    padding: 10px;
                     border: 1px solid gray;
                     border-radius: 5px;
                 }
