@@ -15,12 +15,13 @@
 }
 #banner .container .row .col-12 .table-reponsive {
   filter: drop-shadow(2px 2px 4px #606060);
+  width: 100%;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table {
   position: relative;
   overflow: hidden;
-  border-radius: 20px;
-  filter: brightness(260%);
+  border-radius: 25px;
+  filter: brightness(310%);
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table thead {
   vertical-align: bottom;
@@ -33,19 +34,21 @@
   border-right: 1px solid #c7460a;
   background-color: #EE5007;
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr th {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td {
-  padding: 30px;
+  padding: 25px;
   border-bottom-color: #363a3e;
+  background-size: cover;
+  background-position: center;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td h3 {
   color: #ffffff;
@@ -71,47 +74,51 @@
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td td {
   background-color: #F3DCD4;
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td .rock-background-image {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
+  background-size: cover;
+  background-position: center;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr th {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td h3 {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr th {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
+  background-size: cover;
+  background-position: center;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td h3 {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 25px;
 }
 #banner .container .row .col-12 .table-reponsive .schedule-table tbody tr td .section-overlay {
   background-color: #000000;

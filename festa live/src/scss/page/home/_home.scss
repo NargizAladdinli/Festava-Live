@@ -11,11 +11,12 @@
         }
 .table-reponsive{
     filter: drop-shadow(2px 2px 4px #606060);
+    width: 100%;
     .schedule-table{
         position: relative;
         overflow: hidden;
-        border-radius: 20px;
-        filter: brightness(260%);
+        border-radius: 25px;
+        filter: brightness(310%);
         thead{
             vertical-align: bottom;
             tr{
@@ -25,21 +26,23 @@
                     border-right: 1px solid #c7460a;
                     background-color: $primary_color;
                     border-bottom-color: #363a3e;
-                    padding: 30px;
+                    padding: 25px;
                 }
             }
         }
         tbody{
             tr{
                 border-bottom-color: #363a3e;
-                padding: 30px;
+                padding: 25px;
                 th{
                     border-bottom-color: #363a3e;
-                    padding: 30px
+                    padding: 25px
                 }
                 td{
-                    padding: 30px;
+                    padding: 25px;
                     border-bottom-color: #363a3e;
+                    background-size: cover;
+                    background-position: center;
 h3{
     color: $secondary_color;
     position: relative;
@@ -64,54 +67,58 @@ p{
 td{
     background-color: #F3DCD4;
     border-bottom-color: #363a3e;
-    padding: 30px;
+    padding: 25px;
 }
 .rock-background-image{
     border-bottom-color: #363a3e;
-    padding: 30px;
+    padding: 25px;
+    background-size: cover;
+    background-position: center;
 
 }
                 }
             }
             tr{
                 border-bottom-color: #363a3e;
-                padding: 30px;
+                padding: 25px;
                 th{
                     border-bottom-color: #363a3e;
-                    padding: 30px;
+                    padding: 25px;
                 }
                 td{
                     border-bottom-color: #363a3e;
-                    padding: 30px;
+                    padding: 25px;
                 }
                 td{
                     h3{
                         border-bottom-color: #363a3e;
-                        padding: 30px;
+                        padding: 25px;
                     }
              
                     
                 }
 td{
     border-bottom-color: #363a3e;
-    padding: 30px;
+    padding: 25px;
 }
 
 
             }
             tr{
                 border-bottom-color: #363a3e;
-                padding: 30px;
+                padding: 25px;
                 th{
                     border-bottom-color: #363a3e;
-                padding: 30px;
+                padding: 25px;
                 }
                 td{
                     border-bottom-color: #363a3e;
-                padding: 30px;
+                padding: 25px;
+                background-size: cover;
+                background-position: center;
                 h3{
                     border-bottom-color: #363a3e;
-                padding: 30px;
+                padding: 25px;
                 }
             .section-overlay{
                 background-color: $dark_color;
