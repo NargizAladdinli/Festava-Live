@@ -18,7 +18,7 @@ h1 {
   justify-content: center;
   gap: 30px;
   margin: 0 auto;
-  background-color: #86A3B8;
+  background-color: #d7edff;
   width: 500px;
   border-radius: 50px;
 }
@@ -36,6 +36,7 @@ h1 {
 #forum .map button {
   margin: 30px 0px;
   color: gray;
+  background-color: #d7edff;
   border: none;
   font-size: 20px;
   border-radius: 50px;
@@ -78,6 +79,9 @@ main .reqister .reqister-form .form-title .form-titles input {
   padding: 10px;
   outline: none;
 }
+main .reqister .reqister-form .form-title .form-titles input:hover {
+  border: 1px solid blue;
+}
 main .reqister .reqister-form .form-title .form-titlestwo {
   margin: 30px 0px;
 }
@@ -88,6 +92,9 @@ main .reqister .reqister-form .form-title .form-titlestwo input {
   border-radius: 5px;
   padding: 10px;
   outline: none;
+}
+main .reqister .reqister-form .form-title .form-titlestwo input:hover {
+  border: 1px solid blue;
 }
 main .reqister .reqister-form .company {
   text-align: center;
@@ -101,6 +108,9 @@ main .reqister .reqister-form .company input {
   padding: 10px;
   outline: none;
 }
+main .reqister .reqister-form .company input:hover {
+  border: 1px solid blue;
+}
 main .reqister .reqister-form .message {
   text-align: center;
   margin: 30px 0px;
@@ -112,6 +122,9 @@ main .reqister .reqister-form .message input {
   border: 1px solid gray;
   border-radius: 5px;
   outline: none;
+}
+main .reqister .reqister-form .message input:hover {
+  border: 1px solid blue;
 }
 main .reqister .reqister-form .send {
   margin: 30px 0px;
