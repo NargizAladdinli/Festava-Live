@@ -1,0 +1,210 @@
+#down{
+    font-family: 'Outfit', sans-serif;
+    background-color: #ee5007;
+    .container{
+        
+        //  height: 150px;
+         
+        .row{
+                margin-top: 5%;
+            .col-lg-6{
+         
+                .fest_text{
+                    margin-top: 10%;
+                    font-weight: bold;
+                    margin: 5%;
+            // padding: 0px 10%;
+            color: white;
+           
+                }
+    
+            }
+
+         
+                .col-lg-6{
+                    // margin-top: 5%;
+                    //  padding: 0% 18%;
+                    // .img_1{
+                    //     width: 30px;
+                    //     cursor: pointer;
+                    // } 
+                    
+                    // .img_2{
+                    //     width: 30px;
+                    //     cursor: pointer;
+                      
+                    // }
+                    
+                    // .img_3{
+                    //  width: 30px;
+                    //  cursor: pointer;
+                    
+                    // }
+                    
+                    // .img_4{
+                    //     width: 30px;
+                    //     cursor: pointer;
+                    // }
+
+                    // .img_5{
+                    //     width: 30px;
+                    //     cursor: pointer;
+                    // }
+
+                  .all_img{
+                    display: flex;
+                    gap: 20px;
+                    list-style: none;
+                    justify-content: flex-end;
+                    margin-top: 7%;
+                    transition: 1s;
+
+                   
+                    
+                    li{
+                        cursor: pointer;
+                        transition: 1s;
+                        &:hover{
+                            transform: rotate(360deg);
+                            // background-color: #f8cb2e;
+                            border-radius: 50px;
+                           
+                        }
+                        img{
+                            width: 20px;
+                        }
+                    }
+                  }      
+
+                }     
+
+              
+            
+        }
+    }
+
+
+
+}
+
+
+#item{
+    font-family: 'Outfit', sans-serif;
+    background-color: #000000;
+    height: 600px;
+   
+    .container{
+        
+        .row{
+            .col-lg-4{
+                h1{
+                color: #f8cb2e;
+                margin-top: 10%;
+                font-weight: bold;
+                }
+
+                ul{
+                    display: flex;
+                    gap: 20px;
+                    list-style: none;
+                    margin-top: 15%;
+                    margin-left: -8%;
+                    font-weight: bold;
+                   
+                    cursor: pointer;
+
+                    li{
+                        color: white;
+
+                        &:hover{
+                            color: red;
+                            transition: 1s;
+                        }
+                    }
+
+                  
+
+                }
+            }
+
+            .col-lg-4{
+              
+                h3{
+                    color: #f8cb2e;
+                    margin-top: 12%;
+                    margin-left: 30%;
+
+                }
+
+
+              .contacts{
+                flex-direction: column;
+                margin-left: 23%;
+              }  
+            
+            }
+
+            .col-lg-4{
+                
+                h4{
+                    color: #f8cb2e;
+                    font-weight: bold;
+                    margin-top: 13%;
+                }
+
+                p{
+                    color: white;
+                    font-weight: bold;
+                    margin-top: 15%;
+                }
+
+                
+                  .btn_maps  {
+                
+                text-decoration: none;
+                color: white;
+                border-bottom: 1px solid white;
+
+
+
+                  }
+               
+                  
+                 
+                
+            }
+
+            .col-lg-4{
+             
+                .form{
+                    white-space: pre;
+                    margin-top: 45%;
+                    border-top: 1px solid #343537;
+                    width: 340%;                   
+                   
+
+                    li{
+                        margin-top: 5%;
+                       
+                        a{
+                            color: white;
+                        text-decoration: none;
+                       
+
+                        &:hover{
+                            color: red;
+                            transition: 1s;
+                        }
+
+
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+
